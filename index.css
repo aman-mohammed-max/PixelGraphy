@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 @media (min-width: 1200px) { 
 
@@ -47,7 +48,6 @@
     color:#ffffff;
     font-family:  'Nunito', sans-serif;
     font-size: 1000%;
-
 }
 .sm-icon{
     width: 100px;
@@ -66,12 +66,12 @@
 }
 
 .point-box{
-    background-color: blue;
+   
     width: 350px;
-    height: 200px;
+    height: 150px;
     padding: 5px;
 
-    margin-top: 650px;
+    margin-top: 690px;
     margin-bottom: 40px;
     margin-left: 35px;
 }
@@ -84,44 +84,35 @@
 }
 .point-line{
     color:#ffffff;
+    font-family: 'Quicksand', sans-serif;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-.scroll-icon{
-    
+.scroll-box{
+    height: 30px;
+    width: 340px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
 }
-.scroll-downs {
+.scroll-text{
+    color:#ffffff;
+    font-family: 'Lexend Deca', sans-serif;
+    width: 98px;
+    margin: 5px;
+}
 
-    margin: auto;
-    
-    width :34px;
-    height: 55px;
-  }
-  .mousey {
-    width: 3px;
-    padding: 10px 15px;
-    height: 35px;
-    border: 2px solid #fff;
-    border-radius: 25px;
-    opacity: 0.75;
-    box-sizing: content-box;
-  }
-  .scroller {
-    width: 3px;
-    height: 10px;
-    border-radius: 25%;
-    background-color: #fff;
-    animation-name: scroll;
-    animation-duration: 2.2s;
-    animation-timing-function: cubic-bezier(.15,.41,.69,.94);
-    animation-iteration-count: infinite;
-  }
-  @keyframes scroll {
-    0% { opacity: 0; }
-    10% { transform: translateY(0); opacity: 1; }
-    100% { transform: translateY(15px); opacity: 0;}
-  }
+.scroll-icon{
+    width: 45px; 
+    height: 45px; 
+    padding: 1px;
+    margin-left: -9px;
+    margin-top: -6px;
+}
+
 }
