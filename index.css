@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@900&display=swap');
+
 
 @media (min-width: 1200px) { 
 
@@ -24,26 +26,32 @@
 }
 
 .title-box{
-    background-color: rgb(255, 255, 255);
-    width: 700px;
+   
+    width: 1170px;
     height: 200px;
-
-
+    
     position: absolute;
-    right: 0px;
-    top: 0px;
+    margin: auto;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
 }
 
 .title-logo{
     font-family: 'Nunito', sans-serif;
     font-size: 1000%;
-   
+    color:#ffffff;
 }
+.title-graphy{
+    color:#ffffff;
+    font-family:  'Nunito', sans-serif;
+    font-size: 1000%;
 
+}
 .sm-icon{
-    
-    width: 150px;
-    height: 60px;
+    width: 100px;
+    height: 40px;
     margin-top: 25px;
     margin-left: 25px;
 }
@@ -57,4 +65,63 @@
     right: 5px;
 }
 
+.point-box{
+    background-color: blue;
+    width: 350px;
+    height: 200px;
+    padding: 5px;
+
+    margin-top: 650px;
+    margin-bottom: 40px;
+    margin-left: 35px;
+}
+.point-hdr{
+    font-family: 'Fredoka One', cursive;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: aliceblue;
+    font-size: 30px;
+}
+.point-line{
+    color:#ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.scroll-icon{
+    
+}
+.scroll-downs {
+
+    margin: auto;
+    
+    width :34px;
+    height: 55px;
+  }
+  .mousey {
+    width: 3px;
+    padding: 10px 15px;
+    height: 35px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    opacity: 0.75;
+    box-sizing: content-box;
+  }
+  .scroller {
+    width: 3px;
+    height: 10px;
+    border-radius: 25%;
+    background-color: #fff;
+    animation-name: scroll;
+    animation-duration: 2.2s;
+    animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+    animation-iteration-count: infinite;
+  }
+  @keyframes scroll {
+    0% { opacity: 0; }
+    10% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(15px); opacity: 0;}
+  }
 }
