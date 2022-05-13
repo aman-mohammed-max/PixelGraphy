@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Capriola&family=Darker+Grotesque:wght@700&family=Hammersmith+One&family=Lexend:wght@600&family=Manjari:wght@700&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+@media (min-width: 1200px) { 
+
+body{
+    background-color: #000000;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    display: none;
+} 
+
+.header{
+    background-image: url("index/background-img/5525122.jpg");
+    width: 100%;
+    height: 961px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.blur{
+    width: 50%;
+    height: 961px;
+    background-color: rgba(255, 255, 255, 0.21);
+
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    backdrop-filter: blur(15.9177px);
+}
+
+.title-box{
+   
+    width: 1170px;
+    height: 200px;
+    
+    position: absolute;
+    margin: auto;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.title-logo{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1000%;
+    color:#ffffff;
+}
+.title-graphy{
+    color:#ffffff;
+    font-family:  'Nunito', sans-serif;
+    font-size: 1000%;
+}
+.sm-icon{
+    width: 100px;
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.icon-o{
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    right: 5px;
+}
+
+.point-box{
+   
+    width: 350px;
+    height: 150px;
+    padding: 5px;
+
+    margin-top: 690px;
+    margin-bottom: 40px;
+    margin-left: 35px;
+}
+.point-hdr{
+    font-family: 'Fredoka One', cursive;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: aliceblue;
+    font-size: 30px;
+}
+.point-line{
+    color:#ffffff;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.scroll-box{
+    height: 30px;
+    width: 340px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+}
+.scroll-text{
+    color:#ffffff;
+    font-family: 'Lexend Deca', sans-serif;
+    width: 98px;
+    margin: 5px;
+}
+
+.scroll-icon{
+    width: 45px; 
+    height: 45px; 
+    padding: 1px;
+    margin-left: -9px;
+    margin-top: -6px;
+}
+
+.main-body{
+    width: 100%;
+    height: 3000px;
+}
+
+.footer{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    left: 0px;
+    border-top: 1px dashed #ffffff4b;
+    border-width: 2px;
+}
+
+.aboutus-box{
+    width: 700px;
+    height: 380px;
+    position: absolute;
+    margin: auto;
+    top: 30px;
+    right: 0;
+    left: 0;
+}
+.aman-pro{
+    width: 50%;
+    height: 100%;
+}
+
+.dhiyan-pro{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;    
+}
+
+.insta-id-box{
+    color:#ffffff;
+    text-align: center;
+    height: 50px;
+    width: 350px;
+}
+
+.icon-fo{
+    width: 75%;
+    height: 67%;
+    margin-left: 43px;
+    margin-right: 43px;
+    margin-bottom: 40px;
+}
+
+.name-tag{
+    width: 200px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 1000;
+}
+
+.insta-icon{
+    width: 20px;
+    height: 20px;
+}
+
+.ab-text{
+    width: 700px;
+    height: 80px;
+    position: absolute;
+    margin: auto;
+    right: 0;
+    left: 0;
+    bottom: 40px;
+    color:#b3afaf;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+}

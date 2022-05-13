@@ -2,58 +2,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Capriola&family=Darker+Grotesque:wght@700&family=Hammersmith+One&family=Lexend:wght@600&family=Manjari:wght@700&family=Quicksand&display=swap');
 
-@media (min-width: 1200px) { 
+@media (max-width: 460px) { 
 
-    
+body{
+    background-color: #000000;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    display: none;
+} 
+
 .header{
-    background-image: url("index/5525122.jpg");
+    background-image: url("index/background-img/5525122-phone.jpg");
     width: 100%;
-    height: 961px;
+    height: 661px;
     position: absolute;
     top: 0px;
     left: 0px;
 }
 
-.blur{
-    width: 50%;
-    height: 961px;
-    background-color: rgba(255, 255, 255, 0.21);
-
-    position: absolute;
-    right: 0px;
-    top: 0px;
-    backdrop-filter: blur(30.9177px);
-}
-
 .title-box{
    
-    width: 1170px;
-    height: 200px;
+    width: 90%;
+    height: 100px;
     
-    position: absolute;
-    margin: auto;
-    right: 0;
-    top: 0;
-    left: 0;
-    bottom: 0;
+    margin-top: 50%;
+    margin-left: 6%;
+    margin-right:;
 }
 
 .title-logo{
     font-family: 'Nunito', sans-serif;
-    font-size: 1000%;
+    font-size: 300%;
     color:#ffffff;
 }
 .title-graphy{
     color:#ffffff;
     font-family:  'Nunito', sans-serif;
-    font-size: 1000%;
+    font-size: 300%;
 }
 .sm-icon{
     width: 100px;
     height: 40px;
-    margin-top: 25px;
-    margin-left: 25px;
+    margin-bottom: 10%;
+    margin-left: 35%;
 }
 
 .icon-o{
@@ -114,5 +109,67 @@
     margin-left: -9px;
     margin-top: -6px;
 }
+
+.main-body{
+    width: 100%;
+    height: 3000px;
+}
+
+.footer{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    left: 0px;
+    border-top: 0.5px solid #ffffff49;
+}
+
+.aboutus-box{
+    width: 100px;
+    height: 380px;
+    position: absolute;
+    margin: auto;
+    top: 30px;
+    right: 0;
+    left: 0;
+}
+.aman-pro{
+    background: #817f7f;
+    width: 50%;
+    height: 100%;
+}
+
+.dhiyan-pro{
+    background: #d80000;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;    
+}
+
+.insta-id-box{
+    color:#ffffff;
+    text-align: center;
+    height: 30px;
+}
+
+.icon-fo{
+    width: 75%;
+    height: 67%;
+    margin-left: 43px;
+    margin-right: 43px;
+    margin-bottom: 40px;
+}
+
+.name-tag{
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.insta-icon{
+    width: 20px;
+    height: 20px;
+}
+
 
 }

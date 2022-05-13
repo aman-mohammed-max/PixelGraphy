@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+@media (min-width: 992px) and (max-width: 1199.98px)  { 
+
+    
+.header{
+    background-image: url("index/background-img/5525122.jpg");
+    width: 100%;
+    height: 661px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.blur{
+    width: 50%;
+    height: 661px;
+    background-color: rgba(255, 255, 255, 0.21);
+
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    backdrop-filter: blur(30.9177px);
+}
+
+.title-box{
+   
+    width: 792px;
+    height: 200px;
+    
+    position: absolute;
+    margin: auto;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.title-logo{
+    font-family: 'Nunito', sans-serif;
+    font-size: 680%; 
+    color:#ffffff;
+}
+.title-graphy{
+    color:#ffffff;
+    font-size: 680%;
+    font-family:  'Nunito', sans-serif;
+}
+.sm-icon{
+    width: 100px;
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.icon-o{
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    right: 5px;
+}
+
+.point-box{
+   
+    width: 350px;
+    height: 150px;
+    padding: 5px;
+
+    margin-top: 390px;
+    margin-bottom: 40px;
+    margin-left: 35px;
+}
+.point-hdr{
+    font-family: 'Fredoka One', cursive;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: aliceblue;
+    font-size: 30px;
+}
+.point-line{
+    color:#ffffff;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.scroll-box{
+    height: 30px;
+    width: 340px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+}
+.scroll-text{
+    color:#ffffff;
+    font-family: 'Lexend Deca', sans-serif;
+    width: 98px;
+    margin: 5px;
+}
+
+.scroll-icon{
+    width: 45px; 
+    height: 45px; 
+    padding: 1px;
+    margin-left: -9px;
+    margin-top: -6px;
+}
+
+}
