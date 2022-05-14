@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Capriola&family=Darker+Grotesque:wght@700&family=Hammersmith+One&family=Lexend:wght@600&family=Manjari:wght@700&family=Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Koulen&display=swap');
 
 
 @media (min-width: 1200px) { 
@@ -60,6 +61,35 @@ body{
     font-family:  'Nunito', sans-serif;
     font-size: 1000%;
 }
+
+.warn-box{
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    padding: 1px;
+    position: absolute;
+    margin: auto;
+    right: 0;
+    left: 0;
+    border-radius: 35px;
+    background-color: #969494b6;
+    backdrop-filter: blur(2px);
+    
+}
+
+.warn-img{
+    width: 40px;
+    margin-left: -75%;
+    margin-top: 4px;
+}
+
+.warn-txt{
+    color: #ffffff;
+    margin-top: -33px;
+    margin-left: 35px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 .sm-icon{
     width: 100px;
     height: 40px;
