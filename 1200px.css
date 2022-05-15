@@ -196,14 +196,14 @@ body{
 }
 
 .error-img{
-    width: 30%;
+    width: 170px;
     height: 30%;
     margin-top: 40px;
-    margin-left: 195px;
+    margin-left: 35%;
 }
 
 .error-text{
-    margin-left: 180px;
+    margin-left: 32%;
     color:#393939;
     font-family: 'Lato', sans-serif;
 }
