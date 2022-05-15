@@ -4,7 +4,7 @@ $(document).scroll(function() {
   
   function navbarScroll() {
     var y = window.scrollY;
-    if (y > 10) {
-        window.scrollTo(0, 100000);        
+    if (y > 5) {
+               
     }
   }
