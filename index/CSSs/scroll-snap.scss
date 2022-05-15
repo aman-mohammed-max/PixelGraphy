@@ -1,0 +1,13 @@
+.screens-container {
+    -webkit-scroll-snap-type: x proximity;
+    scroll-snap-type: x proximity;
+    overflow: scroll;
+    height: 100vh;
+  }
+  
+.screen { 
+    -webkit-scroll-snap-align: start;
+    scroll-snap-align: start;
+    height: 100.1vh;
+    width: 100%;
+}

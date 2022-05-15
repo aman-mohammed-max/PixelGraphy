@@ -5,7 +5,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Capriola&family=Darker+Grotesque:wght@700&family=Hammersmith+One&family=Lexend:wght@600&family=Manjari:wght@700&family=Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Koulen&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 @media (min-width: 1200px) { 
 
@@ -21,7 +20,7 @@ body{
 } 
 
 .header{
-    background-image: url("index/background-img/5525122.jpg");
+    background-image: url("index/background-img/1.jpg");
     width: 100%;
 /*  height: 961px; */
     height: 100.1vh;
@@ -79,7 +78,6 @@ body{
     border-radius: 35px;
     background-color: #969494b6;
     backdrop-filter: blur(2px);
-    
 }
 
 .warn-img{
