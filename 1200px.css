@@ -66,7 +66,7 @@ body{
 }
 
 .warn-box{
-    width: 250px;
+    width: 260px;
     height: 40px;
     text-align: center;
     padding: 1px;
@@ -81,15 +81,17 @@ body{
 }
 
 .warn-img{
-    width: 40px;
+    width: 30px;
+    height: 28px;
     margin-left: -75%;
-    margin-top: 4px;
+    margin-top: 8px;
 }
 
 .warn-txt{
     color: #ffffff;
-    margin-top: -33px;
-    margin-left: 35px;
+    margin-top: -27px;
+    margin-left: 50px;
+    width: 75%;
     font-family: 'Josefin Sans', sans-serif;
 }
 
