@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Capriola&family=Darker+Grotesque:wght@700&family=Hammersmith+One&family=Lexend:wght@600&family=Manjari:wght@700&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Koulen&display=swap');
 
 @media (max-width: 460px) { 
 
@@ -16,33 +18,67 @@ body{
 } 
 
 .header{
-    width: 100%;
-    height: 661px;
+    background-image: url("index/background-img/5525122-phone.jpg");
+/*  width: 100%; */
+    height: 100vh;
     position: absolute;
     top: 0px;
-    left: 0px;
+    left: 0px; 
 }
 
 .title-box{
    
-    width: 90%;
-    height: 100px;
+    width: 62.0vw;
+    height: 50px;
     
-    margin-top: 50%;
-    margin-left: 6%;
-    margin-right:;
+    position: absolute;
+    margin: auto;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
 }
 
 .title-logo{
     font-family: 'Nunito', sans-serif;
-    font-size: 300%;
+    font-size: 8.4vw;
     color:#ffffff;
 }
 .title-graphy{
     color:#ffffff;
     font-family:  'Nunito', sans-serif;
-    font-size: 300%;
+    font-size: 8.4vw;
 }
+
+.warn-box{
+    width: 260px;
+    height: 40px;
+    text-align: center;
+    padding: 1px;
+    position: absolute;
+    margin: auto;
+    right: 0;
+    left: 0;
+    border-radius: 35px;
+    background-color: #969494b6;
+    backdrop-filter: blur(2px);
+}
+
+.warn-img{
+    width: 30px;
+    height: 28px;
+    margin-left: -75%;
+    margin-top: 8px;
+}
+
+.warn-txt{
+    color: #ffffff;
+    margin-top: -27px;
+    margin-left: 50px;
+    width: 75%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 .sm-icon{
     width: 100px;
     height: 40px;
@@ -110,39 +146,86 @@ body{
 }
 
 .main-body{
+    margin-top: 100.1vh;    
     width: 100%;
-    height: 3000px;
+/*  height: 3000px; */
+    height: 100vh;
 }
+
+.error-box{
+    width: 98vw;
+    height: 94vh;
+    border-radius: 10px;
+    background-color: #55555531;
+
+    position: absolute;
+    top: 103vh;
+    left: 1.1vw; 
+}
+
+.error-box-2{
+    width: 30%;
+    height: 30%;
+
+    position: absolute;
+    margin: auto;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.error-img{
+    width: 170px;
+    height: 30%;
+    margin-top: 40px;
+    margin-left: 35%;
+}
+
+.error-text{
+    margin-left: 32%;
+    color:#393939;
+    font-family: 'Lato', sans-serif;
+}
+
+/*-----------body----------*/
+
+
+/*-----------footer_area----------*/
 
 .footer{
     width: 100%;
-    height: 500px;
+    height: 250px;
     position: absolute;
     left: 0px;
-    border-top: 0.5px solid #ffffff49;
+    border-top: 1px dashed #ffffff4b;
+    border-width: 2px;
 }
 
 .aboutus-box{
-    width: 100px;
-    height: 380px;
+    background-color: #ffffff13;
+    width: 70vw;
+    height: 20vh;
+    border-radius: 15px;
     position: absolute;
     margin: auto;
     top: 30px;
     right: 0;
     left: 0;
 }
+
 .aman-pro{
-    background: #817f7f;
     width: 50%;
+    top: 10px;
     height: 100%;
+    position: absolute;
 }
 
 .dhiyan-pro{
-    background: #d80000;
     width: 50%;
     height: 100%;
     position: absolute;
-    top: 0;
+    top: 10px;
     right: 0;    
 }
 
@@ -154,8 +237,8 @@ body{
 
 .icon-fo{
     width: 75%;
-    height: 67%;
-    margin-left: 43px;
+    height: 62%;
+    margin-left: 20px;
     margin-right: 43px;
     margin-bottom: 40px;
 }
@@ -168,6 +251,31 @@ body{
 .insta-icon{
     width: 20px;
     height: 20px;
+}
+
+.name-tag{
+    width: 200px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 1000;
+    font-size: 9px;
+}
+
+.insta-icon{
+    width: 20px;
+    height: 20px;
+}
+
+.ab-text{
+    width: 700px;
+    height: 80px;
+    position: absolute;
+    margin: auto;
+    right: 0;
+    left: 0;
+    bottom: 10px;
+    color:#b3afaf;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 
