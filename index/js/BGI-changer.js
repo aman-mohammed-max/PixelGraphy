@@ -1,4 +1,4 @@
- (function () {
-            var imageNo = Math.floor((Math.random() * 6) + 1);
-            $(".bgauto").attr("src", "/index/background-img/bannerimage-" + imageNo + ".jpg");
-        })
+$(function () {
+    var imageNo = Math.round((Math.random() * 4) + 1);
+    document.getElementById('bgauto').setAttribute("style","background-image: url( ../index/background-img/BG-image-" + imageNo + ".jpg)")
+})
