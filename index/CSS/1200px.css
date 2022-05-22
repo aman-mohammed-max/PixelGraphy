@@ -10,10 +10,8 @@
 
 body{
     background-color: #000000;
-    overflow-y: scroll;
-
+    cursor: url("arrow-pointer-solid.svg"), auto;
 }
-
 
 ::-webkit-scrollbar {
     display: none;
